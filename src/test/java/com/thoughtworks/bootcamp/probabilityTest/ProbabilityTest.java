@@ -45,5 +45,11 @@ public class ProbabilityTest {
         assertEquals(new Probability(0.10f), dotOneProbability.and(certainEvent));
     }
     @Test
-    void
+    void givenPobabilityZero_whenCalculatingEitherTwoEventsOccuring_thenReturnZero(){
+        assertEquals(impossibleEvent,impossibleEvent.or(impossibleEvent));
+    }
+    @Test
+    void givenProbabilityOfGettingHeadAndProbabilityOfGettingSixInDice_whenCalculatingEitherOccuraredProbability_thenReturn(){
+        assertEquals(new Probability(0.75f),new Probability(0.5f).or(new Probability(0.5f)));
+    }
 }

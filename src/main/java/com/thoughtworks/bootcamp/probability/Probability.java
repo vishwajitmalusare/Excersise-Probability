@@ -25,4 +25,8 @@ public class Probability {
     public Probability and(Probability certainEvent) {
         return new Probability(value * certainEvent.value);
     }
+
+    public Probability or(Probability impossibleEvent) {
+        return new Probability(value).not().and(new Probability(impossibleEvent.value).not()).not();
+    }
 }

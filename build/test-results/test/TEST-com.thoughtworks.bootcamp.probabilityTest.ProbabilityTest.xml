@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-09-04T19:43:49" hostname="VISHWAJEETs-MacBook-Pro.local" time="0.013">
+<testsuite name="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2019-09-04T20:22:43" hostname="VISHWAJEETs-MacBook-Pro.local" time="0.014">
   <properties/>
   <testcase name="givenProbabilityAsZero_whenCheckingProbabilityOfEventTogether_theRetunProbabilityZero()" classname="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" time="0.007"/>
-  <testcase name="giveProbabilityOneforOneEvnets_whenCheckingProbabilityOfEventOccureTogether_thenReturnProbabilityDotTen()" classname="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" time="0.001"/>
-  <testcase name="giventEventProbabilitiesOfTwoeEventsIsZero_whenCheckingEquality_thenReturnTrue()" classname="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" time="0.001"/>
-  <testcase name="givenProbabilityForOccurance_whenCheckingUnoccuranceProbablility_thenReturnZero()" classname="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" time="0.0"/>
+  <testcase name="giveProbabilityOneforOneEvnets_whenCheckingProbabilityOfEventOccureTogether_thenReturnProbabilityDotTen()" classname="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" time="0.0"/>
+  <testcase name="giventEventProbabilitiesOfTwoeEventsIsZero_whenCheckingEquality_thenReturnTrue()" classname="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" time="0.0"/>
+  <testcase name="givenPobabilityZero_whenCalculatingEitherTwoEventsOccuring_thenReturnZero()" classname="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" time="0.001"/>
+  <testcase name="givenProbabilityOfGettingHeadAndProbabilityOfGettingSixInDice_whenCalculatingEitherOccuraredProbability_thenReturn()" classname="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" time="0.001"/>
+  <testcase name="givenProbabilityForOccurance_whenCheckingUnoccuranceProbablility_thenReturnZero()" classname="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" time="0.001"/>
   <testcase name="givenProbabilityForEventOneIsZeroEventTwoZero_whenCheckingEquality_tehenReturnFalse()" classname="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" time="0.001"/>
   <testcase name="givenProbabilityOfZeroOccurance_whenCheckUnoccuranceProbability_thenReturnOne()" classname="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
