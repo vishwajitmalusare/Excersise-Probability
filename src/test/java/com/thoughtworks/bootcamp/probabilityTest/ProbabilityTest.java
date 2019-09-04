@@ -35,4 +35,15 @@ public class ProbabilityTest {
     void givenProbabilityForOccurance_whenCheckingUnoccuranceProbablility_thenReturnZero(){
         assertEquals(impossibleEvent,certainEvent.not());
     }
+    @Test
+    void givenProbabilityAsZero_whenCheckingProbabilityOfEventTogether_theRetunProbabilityZero(){
+        assertEquals(impossibleEvent,impossibleEvent.and(impossibleEvent));
+    }
+    @Test
+    void giveProbabilityOneforOneEvnets_whenCheckingProbabilityOfEventOccureTogether_thenReturnProbabilityDotTen() {
+        Probability dotOneProbability = new Probability(0.10f);
+        assertEquals(new Probability(0.10f), dotOneProbability.and(certainEvent));
+    }
+    @Test
+    void
 }
