@@ -1,13 +1,13 @@
 package com.thoughtworks.bootcamp.probabilityTest;
 
 import com.thoughtworks.bootcamp.probability.Probability;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotEquals;
 
+//This class is written to test Event Probabilities
 public class ProbabilityTest {
     private static Probability impossibleEvent;
     private static Probability certainEvent;
@@ -25,4 +25,6 @@ public class ProbabilityTest {
     void givenProbabilityForEventOneIsZeroEventTwoZero_whenCheckingEquality_tehenReturnFalse(){
         assertNotEquals(impossibleEvent,certainEvent);
     }
+
+
 }

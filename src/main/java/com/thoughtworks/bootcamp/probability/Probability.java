@@ -1,5 +1,6 @@
 package com.thoughtworks.bootcamp.probability;
 
+//This class is written Probability implementation
 public class Probability {
     private final float value;
 
@@ -16,4 +17,5 @@ public class Probability {
         Probability that = (Probability)object;
         return this.value == that.value;
     }
+
 }
