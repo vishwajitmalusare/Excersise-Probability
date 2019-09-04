@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-09-04T17:40:15" hostname="VISHWAJEETs-MacBook-Pro.local" time="0.01">
+<testsuite name="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-09-04T18:53:08" hostname="VISHWAJEETs-MacBook-Pro.local" time="0.009">
   <properties/>
-  <testcase name="giventEventProbabilitiesOfTwoeEventsIsZero_whenCheckingEquality_thenReturnTrue()" classname="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" time="0.01"/>
+  <testcase name="giventEventProbabilitiesOfTwoeEventsIsZero_whenCheckingEquality_thenReturnTrue()" classname="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" time="0.007"/>
+  <testcase name="givenProbabilityForEventOneIsZeroEventTwoZero_whenCheckingEquality_tehenReturnFalse()" classname="com.thoughtworks.bootcamp.probabilityTest.ProbabilityTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

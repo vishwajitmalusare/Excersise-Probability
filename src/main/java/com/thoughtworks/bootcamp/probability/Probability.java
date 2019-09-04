@@ -3,7 +3,7 @@ package com.thoughtworks.bootcamp.probability;
 public class Probability {
     private final float value;
 
-    public Probability(float v, float value){
+    public Probability(float value){
         this.value=value;
     }
 
