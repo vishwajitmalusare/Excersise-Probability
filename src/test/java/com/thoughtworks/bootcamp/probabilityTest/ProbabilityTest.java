@@ -26,5 +26,10 @@ public class ProbabilityTest {
         assertNotEquals(impossibleEvent,certainEvent);
     }
 
+    @Test
+    void givenProbabilityOfZeroOccurance_whenCheckUnoccuranceProbability_thenReturnOne(){
+        assertEquals(certainEvent,impossibleEvent.not());
+    }
+
 
 }

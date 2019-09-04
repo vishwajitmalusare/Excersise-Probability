@@ -18,4 +18,7 @@ public class Probability {
         return this.value == that.value;
     }
 
+    public Probability not() {
+        return new Probability(1.0f-value);
+    }
 }
